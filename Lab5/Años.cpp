@@ -53,7 +53,7 @@ int main() {
                                                                                                                 //FINAL
 
 
-    else if ((me == 1) || (me == 3) || (me == 5) || (me == 7) || (me == 10)|| (me == 8) && d < 31) //-------------
+    else if ((me == 1) || (me == 3) || (me == 5) || (me == 7) || (me == 10)|| (me == 8) || (me ==12) && d < 31) //-------------
                                                                                                            //
     {                                                                                                      //
         cout << "\n\t el siguiente dia sera: " << d + 1 << '/' << me << '/' << ye;      //
@@ -66,7 +66,7 @@ int main() {
         cout << "\n\t el siguiente dia sera: " << 1 << '/' << 1 << '/' << ye + 1 ;                    // 
     }
 
-    else if ((me == 1) || (me == 3) || (me == 5) || (me == 7) || (me == 10) || (me==8) && d == 31)  //
+    else if ((me == 1) || (me == 3) || (me == 5) || (me == 7) || (me == 10) || (me==8) || (me==12) && d == 31)  //
     {
 
         cout << "\n\t el siguiente dia sera: " << 1 << '/' << me + 1 << '/' << ye;         //------------
