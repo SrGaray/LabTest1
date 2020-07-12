@@ -29,7 +29,7 @@ getch();
 
 
 }
-
+ 
 float med (float Est[],int S){
 
 
